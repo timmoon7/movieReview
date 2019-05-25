@@ -1,4 +1,7 @@
-<%= simple_form_for @movie do |f| %>
+<%= simple_form_for @movie, :html => { :multipart => true } do |f| %>
+  <div class="dropdown">
+    <%= select_tag(:genre_id, options_for_select(@genres), value: @movie.genre, :prompt => "Select a genre") %>
+  </div>
   <%= f.input :title, label: "Movie Title" %>
   <%= f.input :description %>
   <%= f.input :director %>

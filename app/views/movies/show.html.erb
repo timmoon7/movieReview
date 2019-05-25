@@ -1,6 +1,7 @@
 
 <h2><%= @movie.title %></h2>
 <h3><%= @movie.director %></h3>
+<h4>Genre: <%= @movie.genre.name %></h4>
 <p><%= @movie.description %></p>
 
 <%= link_to 'Back', root_path %>
