@@ -14,6 +14,11 @@ class MoviesController < ApplicationController
 
   # GET /movies/1
   def show
+    if @movie.reviews.blank?
+      @average_review = 0
+    else
+      @average_review = @movie.reviews.average(:rating).round(2)
+    end
   end
 
   # GET /movies/new
@@ -64,6 +69,6 @@ class MoviesController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def movie_params
-      params.require(:movie).permit(:title, :description, :director, :genre_id)
+      params.require(:movie).permit(:title, :description, :director, :genre_id, :movie_img)
     end
 end

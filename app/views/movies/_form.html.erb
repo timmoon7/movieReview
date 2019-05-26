@@ -2,6 +2,7 @@
   <div class="dropdown">
     <%= select_tag(:genre_id, options_for_select(@genres), value: @movie.genre, :prompt => "Select a genre") %>
   </div>
+    <%= f.file_field :movie_img %>
   <%= f.input :title, label: "Movie Title" %>
   <%= f.input :description %>
   <%= f.input :director %>

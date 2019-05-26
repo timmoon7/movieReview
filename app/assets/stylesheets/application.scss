@@ -1,2 +1,13 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+.movie {
+  height: 320px; //350px
+  width: 220px; //250px
+  border-radius: 2%;
+}
+
+.movie-show {
+  height: 420px; //475px
+  width: 300px; //325px
+}

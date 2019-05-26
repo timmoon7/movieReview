@@ -1,0 +1,7 @@
+<div class="review-rating" data-score="<%= review.rating %>"></div>
+<p><%= review.comment %></p>
+
+<% if current_user.id == review.user_id %>
+  <%= link_to "Edit", edit_movie_review_path(review.movie, review) %>
+  <%= link_to "Delete", movie_review_path(review.movie, review), method: :delete, data: { confirm: "Are you sure?" } %>
+<% end %>

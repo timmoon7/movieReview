@@ -2,6 +2,7 @@
 
 <%= simple_form_for @movie, :html => { :multipart => true } do |f| %>
   <%= f.select :genre_id, @genres %>
+  <%= f.file_field :movie_img %>
   <%= f.input :title, label: "Movie Title" %>
   <%= f.input :description %>
   <%= f.input :director %>
