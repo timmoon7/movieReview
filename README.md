@@ -5,20 +5,25 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+- Ruby version
 
-* System dependencies
+- System dependencies
 
-* Configuration
+- Configuration
 
-* Database creation
+- Database creation
 
-* Database initialization
+- Database initialization
 
-* How to run the test suite
+- How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+- Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
+# Deployment instructions
 
-* ...
+- Clone the repo:
+- Install gems: bundle install
+- Create Database: rails db:create
+- Migrate Database: rails db:migrate
+- Start server: rails server
+- Open in your browser and navigate to http://localhost:3000

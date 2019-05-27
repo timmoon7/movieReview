@@ -4,7 +4,7 @@
   </div>
     <%= f.file_field :movie_img %>
   <%= f.input :title, label: "Movie Title" %>
-  <%= f.input :description %>
+  <%= f.input :description, input_html: { rows: 6 } %>
   <%= f.input :director %>
-  <%= f.button :submit %>
+  <%= f.button :submit, class: "btn-custom2" %>
 <% end %>
