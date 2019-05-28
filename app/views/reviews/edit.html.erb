@@ -14,8 +14,10 @@
 
 <script>
   $('#rating-form').raty({
-    path: '/assets/',
+    // path: '/assets/',
     scoreName: 'review[rating]',
+    starOff:   "<%= image_path 'star-off.png' %>",
+    starOn:    "<%= image_path 'star-on.png" %>",
     score: function() {
       return $(this).attr('data-score');
     }

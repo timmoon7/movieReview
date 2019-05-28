@@ -8,7 +8,9 @@
 
 <script>
   $('#rating-form').raty({
-    path: '/assets/',
+    // path: '/assets/',
+    starOff:   "<%= image_path 'star-off.png' %>",
+    starOn:    "<%= image_path 'star-on.png' %>",
     scoreName: 'review[rating]'
   });
 </script>
