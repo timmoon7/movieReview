@@ -9,6 +9,8 @@ gem 'jquery-rails'
 gem 'devise', '~> 4.6', '>= 4.6.2'
 gem 'paperclip', '~> 6.1'
 gem 'pg', '~> 1.1', '>= 1.1.4'
+gem 'dotenv-rails', '~> 2.7', '>= 2.7.2'
+gem 'aws-sdk-s3', '~> 1.40'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.3'
