@@ -4,12 +4,12 @@ Rails.application.configure do
   # Uploading Files to S3 in Ruby with Paperclip
   config.paperclip_defaults = {
     storage: :s3,
-    s3_protocol: 'http',
     s3_credentials: {
       bucket: ENV.fetch('AWS_BUCKET'),
       access_key_id: ENV.fetch('AWS_ACCESS_KEY'),
       secret_access_key: ENV.fetch('AWS_SECRET_ACCESS_KEY'),
-      s3_region: ENV.fetch('AWS_REGION')
+      s3_region: ENV.fetch('AWS_REGION'),
+      s3_host_name: ENV.fetch('AWS_ENDPOINT'),
     }
   }
 
