@@ -34,12 +34,12 @@ MovieReview is a web/mobile application for writing reviews of movies with 5 sta
 
 > Pages:
 
-- ![Home](https://raw.githubusercontent.com/timmoon7/pickitup/master/app/assets/images/home.png)
-- ![Movie Details](https://raw.githubusercontent.com/timmoon7/pickitup/master/app/assets/images/show.png)
+- ![Home](https://raw.githubusercontent.com/timmoon7/movieReview/master/app/assets/images/home.png)
+- ![Movie Details](https://raw.githubusercontent.com/timmoon7/movieReview/master/app/assets/images/show.png)
 
 > ERD (Entity Relationship Diagram)
 
-- ![ERD](https://raw.githubusercontent.com/timmoon7/pickitup/master/app/assets/images/erd.png)
+- ![ERD](https://raw.githubusercontent.com/timmoon7/movieReview/master/app/assets/images/erd.png)
 
 # Features
 
