@@ -44,7 +44,8 @@ MovieReview is a web/mobile application for writing reviews of movies with 5 sta
 # Features
 
 - Sing-up, Login & Logout
-- Ading, Editing and Viewing Movies including reviews with filtering by genres
+- Ading, Editing, Deleting and Viewing Movies with filtering by genres
+- Ading, Editing, Deleting and Viewing Reviews
 - Uploading movie image
 
 # Deployment instructions
