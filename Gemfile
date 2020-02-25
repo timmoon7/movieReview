@@ -6,7 +6,7 @@ ruby '2.4.3'
 gem 'simple_form', '~> 4.1'
 gem 'bootstrap-sass', '~> 3.4', '>= 3.4.1'
 gem 'jquery-rails'
-gem 'devise', '~> 4.6', '>= 4.6.2'
+gem 'devise', '~> 4.7'
 gem 'paperclip', '~> 6.1'
 gem 'pg', '~> 1.1', '>= 1.1.4'
 gem 'dotenv-rails', '~> 2.7', '>= 2.7.2'
@@ -17,7 +17,7 @@ gem 'rails', '~> 5.2.3'
 # Use sqlite3 as the database for Active Record
 # gem 'sqlite3'
 # Use Puma as the app server
-gem 'puma', '~> 3.11'
+gem 'puma', '~> 3.12'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
